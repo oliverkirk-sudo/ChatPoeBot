@@ -73,9 +73,10 @@ class HelloPlugin(Plugin):
                     event.add_return("reply", [f'已切换到{kwargs["params"][1]}'])
                 else:
                     event.add_return("reply", ['不正确的参数'])
+            event.prevent_default()
         else:
             event.add_return("reply", ['不正确的参数'])
-        event.prevent_default()
+            event.prevent_default()
         pass
 
     def __del__(self):
