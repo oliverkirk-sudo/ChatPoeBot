@@ -35,8 +35,9 @@ class HelloPlugin(Plugin):
             logging.debug("POE Started")
             event.add_return("reply", [prefix + res_text])
         else:
-            logging.warning('未接收到返回消息，可能是对话次数已耗尽')
-            event.add_return("reply", ['未接收到返回消息，可能是对话次数已耗尽'])
+            logging.warning('未接收到返回消息，可能是对话次数已耗尽,请重试')
+            self.poe = Poe(self.poe_bot, self.bot_type).get_bot()
+            event.add_return("reply", ['未接收到返回消息，可能是对话次数已耗尽,请重试'])
         event.prevent_default()
         event.prevent_postorder()
 
