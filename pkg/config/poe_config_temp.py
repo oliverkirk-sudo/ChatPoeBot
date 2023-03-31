@@ -1,4 +1,4 @@
-from plugins.ChatPoeBot.pkg.poe_bot import PoeBots
+from plugins.ChatPoeBot.pkg.poe_bots_list import PoeBots
 
 # Sage = 'capybara'
 # GPT4 = 'beaver'
