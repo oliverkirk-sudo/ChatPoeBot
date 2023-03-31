@@ -11,7 +11,7 @@ except Exception:
     logging.error('请配置poe_config.py')
     raise RuntimeError('请配置poe_config.py')
 
-poe.logger.setLevel(logging.NOTSET)
+poe.logger.setLevel(logging.CRITICAL)
 
 
 class PoeBotAdapter:
