@@ -8,8 +8,8 @@ from plugins.ChatPoeBot.pkg.poe_bots_list import PoeBots
 try:
     from plugins.ChatPoeBot.pkg.config.poe_config import poe_config
 except Exception:
-    logging.error('请配置poe.config.py')
-    raise RuntimeError('请配置poe.config.py')
+    logging.error('请配置poe_config.py')
+    raise RuntimeError('请配置poe_config.py')
 
 poe.logger.setLevel(logging.NOTSET)
 
