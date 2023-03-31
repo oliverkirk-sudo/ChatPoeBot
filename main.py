@@ -17,7 +17,7 @@ BotType: Sage GPT4 Claude ClaudeInstant ChatGPT Dragonfly
 """
 
 
-@register(name="ChatPoeBot", description="与poe.com上的机器人对话", version="0.1", author="oliverkirk-sudo")
+@register(name="ChatPoeBot", description="与poe.com上的机器人对话", version="0.2", author="oliverkirk-sudo")
 class HelloPlugin(Plugin):
 
     def __init__(self, plugin_host: PluginHost):
@@ -73,10 +73,7 @@ class HelloPlugin(Plugin):
                     event.add_return("reply", [f'已切换到{kwargs["params"][1]}'])
                 else:
                     event.add_return("reply", ['不正确的参数'])
-            event.prevent_default()
-        else:
-            event.add_return("reply", ['不正确的参数'])
-            event.prevent_default()
+            event.prevent_default() 
         pass
 
     def __del__(self):
