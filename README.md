@@ -5,7 +5,7 @@
 ## 1、前置工作
 
 - 首先在[Poe](https://poe.com)注册账号，并登录。
-- 获取token
+- 获取token,找到键为`p-b`的值
     - Chrome: 开发者工具 > 应用 > Cookies > poe.com
     - Firefox: 开发者工具 > 存储 > Cookies
     - Safari: 开发者工具 > 存储 > Cookies
