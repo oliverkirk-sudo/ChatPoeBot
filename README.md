@@ -12,7 +12,7 @@
 
 ## 2、修改配置文件
 
-- 下载本插件`!plugin https://github.com/oliverkirk-sudo/ChatPoeBot.git`
+- 下载本插件`!plugin get https://github.com/oliverkirk-sudo/ChatPoeBot.git`
 - 在config文件夹中将poe_config_temp.py修改为poe_config.py,格式如下：
 
 ```python
