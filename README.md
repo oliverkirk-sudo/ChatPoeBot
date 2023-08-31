@@ -1,3 +1,5 @@
+
+[逆向库](https://github.com/RockChinQ/revLibs)已实现poe大部分的功能，故本仓库不再更新。
 # ChatPoeBot
 
 [QChatGPT](https://github.com/RockChinQ/QChatGPT)的插件,用于将QQ机器人与[Poe](https://poe.com)上的机器人连接
